@@ -10,7 +10,7 @@ target_delta = np.array([-0.15, 0, 0])
 
 #Robot Initialization 
 for m in poppy.motors:
-    m.goto_position(4,10)
+    m.goto_position(2,5)
 
 #Left arm is compliant, right arm is active
 for m in poppy.l_arm:
